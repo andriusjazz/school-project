@@ -1,0 +1,52 @@
+.bgimg {
+    background-image: url("images/wedding_couple.jpg")}
+.bgimg {
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;}
+.display-conteiner {
+    position: relative;}
+.wide {
+    letter-spacing: 4px;}
+.display-middle {
+    position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%)}
+}
+.text-white {
+    color: #fff!important;
+    text-align:center!important;
+    height: 10em;
+    position: relative;
+    margin: 0;}
+body h1 h2{font-family: "Raleway", sans-serif}
+body {margin:0;}
+.pale-red {color: #ffc3c0;}
+header {
+    display: block;
+    box-sizing: inherit;
+}
+body html {height: 100%}
+p {line-height: 2}
+.text-white {color:#fff!important}
+.center {text-align:center!important}
+.large {font-size:64px!important}
+li a {
+    display: block;
+    color: grey;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li{float: left}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+button {
+    width: 25%;
+}

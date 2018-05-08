@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>number 4</title>
+    <style>
+        body {margin:0; background-color: rgb(255, 221, 221)}
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: white;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        li {
+            float: left;
+            width: 25%;}
+
+        li a {
+            display: block;
+            color: black;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;}
+
+        li a:hover:not(.active) {
+            background-color: lightgrey;
+        }
+        .bgimg{
+            background-image: url("images/wedding_couple.jpg");
+            width: 100%;
+            height: auto;
+            background-position: center;
+            position: absolute;
+            min-height: 100%;
+            background-size: cover;
+            top: 0;
+            left: 0;
+
+        }
+        .center{
+            margin: 0;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            text-align: center;
+            letter-spacing: 4px;
+        }
+        h1 {
+            display: block;
+        }
+        div {
+            display: block;
+        }
+        .container{
+            padding-top: 64px!important;
+            padding-bottom: 64px!important;
+
+        }
+
+    </style>
+</head>
+<body>
+<!-- Header / Home-->
+<header class= "bgimg" id="home">
+    <div class="center">
+        <h1>Jane & Jone</h1>
+        <h2>Are getting married</h2>
+        <h2>17.07.2017</h2>
+    </div>
+</header>
+<ul>
+    <li><a href="#Home">Home</a></li>
+    <li><a href="#Jane & Jone">Jane & Jone</a></li>
+    <li><a href="#Wedding">Wedding</a></li>
+    <li><a href="#RSVP">RSVP</a></li>
+</ul>
+<div class="container">
+    <div class="content">
+        <h1><b>Jane & John</b></h1>
+        <img class="img2" src="images/wedding_couple2.jpg">
+
+    </div>
+</div>
+</body>
+</html>
