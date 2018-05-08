@@ -3,90 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <title>number 4</title>
-    <style>
-        body {margin:0; background-color: rgb(255, 221, 221)}
-        ul {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            overflow: hidden;
-            background-color: white;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-        }
-
-        li {
-            float: left;
-            width: 25%;}
-
-        li a {
-            display: block;
-            color: black;
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;}
-
-        li a:hover:not(.active) {
-            background-color: lightgrey;
-        }
-        .bgimg{
-            background-image: url("images/wedding_couple.jpg");
-            width: 100%;
-            height: auto;
-            background-position: center;
-            position: absolute;
-            min-height: 100%;
-            background-size: cover;
-            top: 0;
-            left: 0;
-
-        }
-        .center{
-            margin: 0;
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            color: white;
-            text-align: center;
-            letter-spacing: 4px;
-        }
-        h1 {
-            display: block;
-        }
-        div {
-            display: block;
-        }
-        .container{
-            padding-top: 64px!important;
-            padding-bottom: 64px!important;
-
-        }
-
-    </style>
+    <link rel="stylesheet" href="style.css" type="text/css"/>
 </head>
 <body>
-<!-- Header / Home-->
-<header class= "bgimg" id="home">
-    <div class="center">
-        <h1>Jane & Jone</h1>
-        <h2>Are getting married</h2>
-        <h2>17.07.2017</h2>
-    </div>
-</header>
-<ul>
-    <li><a href="#Home">Home</a></li>
+           <!-- Header / Home-->
+   <header class= "bgimg" id="home">
+         <div class="center">
+              <h1>Jane & Jone</h1>
+              <h2>Are getting married</h2>
+              <h2>17.07.2017</h2>
+         </div>
+   </header><!-- End of header -->
+  <!-- Navigation / bottom-->
+   <ul>
+    <li><a href="#home">Home</a></li>
     <li><a href="#Jane & Jone">Jane & Jone</a></li>
-    <li><a href="#Wedding">Wedding</a></li>
-    <li><a href="#RSVP">RSVP</a></li>
-</ul>
-<div class="container">
-    <div class="content">
-        <h1><b>Jane & John</b></h1>
-        <img class="img2" src="images/wedding_couple2.jpg">
+    <li><a href="#wedding">Wedding</a></li>
+    <li><a href="#rsvp">RSVP</a></li>
+   </ul><!-- End of Navigation / bottom-->
 
-    </div>
-</div>
+   <section class="container" ><!-- Main section -->
+      <div class="content" id="Jane & Jone"><!-- Jane & Joe -->
+          <h1><b>Jane & John</b></h1>
+          <img class="img2" src="images/wedding_couple2.jpg">
+          <p><i>You all know us. And we all know you. We are getting married lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</i></p>
+          <br>
+          <p class="center">
+              <a href="#wedding" class="button black round padding-large large">Wedding Details</a>
+          </p>
+      </div>
+       <!-- Background photo -->
+       <div class="bgimg2 display-container">
+           <div class="display-middle text-white center">
+           <h1 class="jumbo">You Are Invited</h1><br>
+           <h2>Of course..</h2>
+           </div>
+
+       </div><!-- The wedding -->
+       <div id="wedding" class="center">
+           <div>
+               <h1><b>THE WEDDING</b></h1>
+               <img src="images/wedding_location.jpg">
+               <div class="row">
+                   <div class="half">
+                       <h2>When</h2>
+                       <p>Wedding Ceremony - 2:00pm</p>
+                       <p>Reception &amp; Dinner - 5:00pm</p>
+                   </div>
+                   <div class="half">
+                       <h2>Where</h2>
+                       <p>Some place, an address</p>
+                       <p>Some where, some address</p>
+                   </div>
+               </div>
+           </div>
+
+       </div><!-- Rsvp -->
+       <div class="container pale-red center wide" id="rsvp">
+           <h1>HOPE YOU CAN MAKE IT!</h1>
+           <p class="large">Kindly Respond By January, 2017</p>
+           <p class="xlarge">
+               <button class="button"  style="padding:8px 60px">RSVP</button>
+           </p>
+       </div><!-- End Rsvp -->
+       <footer class="center black padding-16">
+           <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+       </footer>
+   </section>
 </body>
 </html>
