@@ -41,6 +41,24 @@ li a:hover:not(.active) {
     left: 0;
 
 }
+.img2{
+    width: 100%;
+    margin: 32px 0;
+    vertical-align: middle;
+    border-style: none;
+    padding: 0;
+    border-radius: 4px;
+
+}
+.bgimg2{
+    background-image: url("images/flowers.jpg");
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    top: 0;
+    left: 0;
+}
 .position-absolute{
     position: absolute;
 }
@@ -55,15 +73,15 @@ li a:hover:not(.active) {
 }
 h1 {
     display: block;
+    font-size: 36px;
 }
 div {
     display: block;
 }
 .container{
-
-
+    padding: 0.01em 16px;
 }
-p  {
+p {
     display: block;
     margin: 15px;
     line-height: 2;
@@ -86,6 +104,47 @@ footer{
     box-sizing: inherit;
 }
 .content, .img2{
-    text-align: center;
-    padding: 15px;
+    text-align: justify;
+}
+.display-container{
+    position: center;
+}
+.text-grey{
+    color: #757575!important;
+    font-weight: bold;
+}
+body, h1, h2{
+    font-family: "Raleway", sans-serif;
+}
+.button-center{
+    text-align:center!important;
+}
+.content{
+    max-width: 980px;
+    margin: auto;
+}
+.black{
+    color: #fff!important;
+    background-color: #000!important;}
+.padding-large{
+    padding: 12px 24px!important;
+}
+.large{
+    font-size: 18px!important;
+}
+.button{
+    user-select: none;
+    border: none;
+    overflow: hidden;
+    text-decoration: none;
+    cursor: pointer;
+    white-space: nowrap;
+    display: inline-block;
+}
+.round{
+    border-radius: 4px;
+}
+.display-container{
+    width: 100%;
+    height: 100%;
 }
