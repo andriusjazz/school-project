@@ -10,6 +10,7 @@
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -94,65 +95,59 @@
                 </div>
             </div>
     </div>
-    <div class="container-fluid">
+    <div class="container">
         <div class="row">
             <div class="col-md-8">
                 <div class="row">
                     <div class="col-md-12">
                         <div class="example">
+                            <img src="images/180x150.gif" class="tumbnail-3">
+                            <h4>Responsive Web Design</h4>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,</p>
+                            <a class="btn btn-success">read more</a>
+
 
                         </div>
                     </div>
 
                     <div class="col-md-12">
                         <div class="example">
-
+                            <img src="images/180x150.gif" class="tumbnail-3">
+                            <h4>Responsive Web Design</h4>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,</p>
+                            <a class="btn btn-success">read more</a>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class=" row col-md-4">
-                    <div id="sidebar-wrapper">
-                        <ul class="sidebar-nav">
-                            <li class="sidebar-brand">
-                                <a href="#">
-                                    Start Bootstrap
-                                </a>
-                            </li>
-                            <br>
-                            <li>
-                                <a href="#">Dashboard</a>
-                            </li>
-                            <br>
-                            <li>
-                                <a href="#">Shortcuts</a>
-                            </li>
-                            <br>
-                            <li>
-                                <a href="#">Overview</a>
-                            </li>
-                            <br>
-                            <li>
-                                <a href="#">Events</a>
-                            </li>
-                            <br>
-                            <li>
-                                <a href="#">About</a>
-                            </li>
-                            <br>
-                            <li>
-                                <a href="#">Services</a>
-                            </li>
-                            <br>
-                            <li>
-                                <a href="#">Contact</a>
-                            </li>
-                        </ul>
+            <div class="row col-md-4 col-xs-12 sidenav">
+                <div class="center-block">
+                    <h3>Categories</h3>
+                    <a href="#about">About</a>
+                    <a href="#services">Services</a>
+                    <a href="#clients">Clients</a>
+                    <a href="#contact">Contact</a>
+                    <a href="#about">About</a>
+                    <a href="#services">Services</a>
+                    <a href="#clients">Clients</a>
+                    <a href="#contact">Contact</a>
+                    <button class="dropdown-btn">Dropdown
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-container">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
                     </div>
+                    <a href="#contact">Search</a>
+                </div>
                     <!-- /#sidebar-wrapper -->
             </div>
         </div>
+    </div>
+    <div class="footer">
+        <p>Copyrights, all rights reserved</p>
     </div>
 
     <!---- End Header ---->
@@ -164,5 +159,22 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    <script>
+        /* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
+        var dropdown = document.getElementsByClassName("dropdown-btn");
+        var i;
+
+        for (i = 0; i < dropdown.length; i++) {
+            dropdown[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var dropdownContent = this.nextElementSibling;
+                if (dropdownContent.style.display === "block") {
+                    dropdownContent.style.display = "none";
+                } else {
+                    dropdownContent.style.display = "block";
+                }
+            });
+        }
+    </script>
 </body>
 </html>
