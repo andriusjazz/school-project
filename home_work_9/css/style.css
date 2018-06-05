@@ -76,6 +76,7 @@ p {
 .img-fluid {
     width: 100%;
     height: auto;
+    padding-bottom: 16px;
 }
 .float-left {
     float: left;
@@ -94,7 +95,7 @@ p {
     padding: 16px;
 }
 .tumbnail-2 {
-    width: 100%;
+    max-width: 100%;
     padding-bottom: 16px;
 }
 a {
@@ -117,6 +118,7 @@ a {
     float: left;
     padding-bottom: 16px;
     padding-right: 16px;
+    max-width: 100%;
 }
 /* sidenav, full height */
 .sidenav {
@@ -125,6 +127,8 @@ a {
     overflow-x: hidden;
     border-bottom: 3px;
     border-color: #5e5e5e;
+    padding-left: 16px;
+    alignment: center;
 }
 
 /* Style the sidenav links and the dropdown button */
@@ -180,11 +184,6 @@ a {
         text-align: center;!important;
         font-size: 20px;!important;
         position: center;!important;
-    }
-    .center-block {
-        display: block;
-        object-position: center;
-        width: 100%;
     }
 }
 .footer {

@@ -1,0 +1,58 @@
+/* setup the very basis for the document */
+body {
+    background: #f0f0f0;
+    padding-top: 10px;
+}
+.container {
+    display: inline-block;
+    margin: 0 auto;
+    width: 400px;
+}
+/* ANIMATIONS */
+.Object, .ObjectContainer a {
+    -webkit-transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -ms-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+    transition: all 0.35s ease-in-out;
+}
+.ObjectContainer {
+    width: 200px;
+    height: 200px;
+    float: left;
+    display: block;
+    position: relative;
+}
+.ObjectContainer .Object {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.ObjectContainer a {
+    position: absolute;
+    bottom: -200px;
+    left: 0;
+    opacity: 0;
+    width: 100%;
+    line-height: 0px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.ObjectContainer:hover .Object {
+    margin: 2.5%;
+    height: 95%;
+    width: 95%;
+    border-radius: 100px;
+    -webkit-transform: rotate(100deg);
+    -moz-transform: rotate(100deg);
+    -ms-transform: rotate(100deg);
+    -o-transform: rotate(100deg);
+    transform: rotate(100deg);
+}
+#red.Object {
+    background: #bdbdbd;
+}
+#red.Object:hover {
+    background: green;
+}
