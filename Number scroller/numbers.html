@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+          integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <style>
+        .scroll-block {
+            background: aquamarine;
+        }
+        .red {
+            background: red;
+        }
+        .green {
+            background: greenyellow;
+        }
+        .blue {
+            background: aqua;
+        }
+        .yellow {
+            background: yellow;
+        }
+        .magenda {
+            background: magenta;
+        }
+        .numscroller {
+            padding-bottom: 12px;
+            padding-top: 12px;
+        }
+    </style>
+</head>
+<body>
+<div style="height:1000px;"></div>
+<section id="runningNumbers" class="container">
+    <div class="row">
+        <div class="conteiner col-md-6 scroll-block">
+           <div class="col-md-6 red">
+            <span class='numscroller' data-min='1' data-max='86' data-delay='5' data-increment='1'>86%</span>
+           </div>
+           <div class="col-md-6 green">
+             <span class='numscroller' data-min='1' data-max='100' data-delay='5' data-increment='1'>100%</span>
+           </div>
+           <div class="col-md-6 blue">
+             <span class='numscroller' data-min='1' data-max='46' data-delay='5' data-increment='1'>46%</span>
+           </div>
+           <div class="col-md-6 yellow">
+             <span class='numscroller' data-min='1' data-max='76' data-delay='5' data-increment='1'>76%</span>
+          </div>
+           <div class="col-md-6 magenda">
+             <span class='numscroller' data-min='1' data-max='80' data-delay='5' data-increment='1'>80%</span>
+           </div>
+        </div>
+    </div>
+</section>
+<div style="height:2000px;"></div>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+        integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+        crossorigin="anonymous"></script>
+<script src="numscroller-1.0.js"></script>
+<!--My custom super script-->
+<script>
+    $(document).ready(function () {
+        // ...
+    });
+</script>
+</body>
+</html>
