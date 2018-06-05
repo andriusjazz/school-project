@@ -13,7 +13,43 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <splitter split-orientation="horizontal" split-proportion="0.6890625">
+      <split-first>
+        <leaf>
+          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/index.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="3543">
+                  <caret line="1894" lean-forward="true" selection-start-line="1894" selection-end-line="1902" selection-end-column="62" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="numbers.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/../Number scroller/numbers.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="272">
+                  <caret line="52" column="23" lean-forward="true" selection-start-line="52" selection-start-column="23" selection-end-line="52" selection-end-column="23" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/css/style.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="217">
+                  <caret line="147" column="166" selection-start-line="147" selection-start-column="166" selection-end-line="147" selection-end-column="166" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
@@ -25,6 +61,7 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/../home_work_final/index.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/../Number scroller/numbers.html" />
       </list>
     </option>
   </component>
@@ -49,7 +86,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -71,12 +107,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="bg_header4&#9;null&#9;null&#10;.dot&#9;null&#9;null&#10;dot&#9;null&#9;null&#10;line&#9;null&#9;null&#10;small&#9;null&#9;null&#10;upper&#9;null&#9;null&#10;.upper&#9;null&#9;null&#10;main_title&#9;null&#9;null&#10;ico-desktop2&#9;null&#9;null&#10;owl_slider_con&#9;null&#9;null&#10;item&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="progress_bar&#9;null&#9;null&#10;spacer30&#9;null&#9;null&#10;fill&#9;null&#9;null&#10;fill_con&#9;null&#9;null&#10;progre&#9;null&#9;null&#10;bg_header4&#9;null&#9;null&#10;.dot&#9;null&#9;null&#10;dot&#9;null&#9;null&#10;line&#9;null&#9;null&#10;small&#9;null&#9;null&#10;upper&#9;null&#9;null&#10;.upper&#9;null&#9;null&#10;main_title&#9;null&#9;null&#10;ico-desktop2&#9;null&#9;null&#10;owl_slider_con&#9;null&#9;null&#10;item&#9;null&#9;null" />
+    <property name="ToolWindowVersion Control.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/AppData/Local/GitHubDesktop/GitHubDesktop.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Number scroller/numbers.html" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
@@ -108,20 +146,21 @@
       <workItem from="1528129099664" duration="997000" />
       <workItem from="1528130750486" duration="719000" />
       <workItem from="1528197748345" duration="729000" />
+      <workItem from="1528203796443" duration="4452000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11087000" />
+    <option name="totallyTimeSpent" value="15539000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="816" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.24921875" />
+      <window_info content_ui="combo" id="Project" order="1" weight="0.24921875" />
       <window_info anchor="bottom" id="TODO" order="10" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.50078124" side_tool="true" weight="0.32952926" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="3" show_stripe_button="false" sideWeight="0.49921876" visible="true" weight="0.084165476" />
+      <window_info anchor="bottom" id="Version Control" order="3" sideWeight="0.49921876" type="SLIDING" weight="0.084165476" />
       <window_info anchor="bottom" id="Run" order="5" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" />
@@ -135,6 +174,25 @@
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="4" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.24921875" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="bottom" id="Run" order="5" />
+      <window_info anchor="bottom" id="Find" order="4" />
+      <window_info anchor="bottom" id="Debug" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="Terminal" order="0" />
+      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.50078124" side_tool="true" weight="0.32952926" />
+      <window_info anchor="bottom" id="Version Control" order="3" sideWeight="0.49921876" type="SLIDING" weight="0.084165476" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info id="Favorites" order="0" side_tool="true" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -214,28 +272,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="517">
-          <caret line="1183" column="2" lean-forward="true" selection-start-line="1183" selection-start-column="2" selection-end-line="1185" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../home_work_final/index.html" />
     <entry file="file://$PROJECT_DIR$/images/bg_header4.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="265" column="13" selection-start-line="265" selection-start-column="13" selection-end-line="265" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14161">
-          <caret line="833" column="27" selection-start-line="833" selection-start-column="27" selection-end-line="833" selection-end-column="27" />
+        <state relative-caret-position="217">
+          <caret line="147" column="166" selection-start-line="147" selection-start-column="166" selection-end-line="147" selection-end-column="166" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="828" selection-start-line="828" selection-end-line="829" />
+        <state relative-caret-position="3543">
+          <caret line="1894" lean-forward="true" selection-start-line="1894" selection-end-line="1902" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Number scroller/numbers.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="52" column="23" lean-forward="true" selection-start-line="52" selection-start-column="23" selection-end-line="52" selection-end-column="23" />
         </state>
       </provider>
     </entry>

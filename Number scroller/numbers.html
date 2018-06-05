@@ -28,29 +28,126 @@
             padding-bottom: 12px;
             padding-top: 12px;
         }
+        .spacer30 {
+            width: 100%;
+            display: block;
+            height: 30px;
+
+        }
+        .progress_bar {
+            margin-bottom: 30px;
+            overflow: hidden;
+        }
+        .white_section .progress_bar .fill_con {
+            background: rgba(0, 0, 0, 0.3);
+        }
+
+        .progress_bar .fill_con {
+            width: 100%;
+            background: #eee;
+            height: 35px;
+            position: relative;
+        }
+        .fill_con {
+            background: rgb(11, 172, 184);
+            width: 80%;
+        }
+
+
     </style>
 </head>
 <body>
-<div style="height:1000px;"></div>
+<!-- Section -->
+<section class="content_section white_section bg_header4 img_con_cov">
+
+    <div class="full_con clearfix">
+        <div class="half_full_con bg_color10 row_spacer f_left">
+            <div class="main_title upper no_line">
+                <h2>Our Skills</h2>
+            </div>
+            <p>Lorem Ipsum is simply dummy text of the printing and typeseting industry Lorem in text Ipsum has been the industry standar dummyy text ever since the when an iunesi known printer of took a galley of type.</p>
+
+            <span class="spacer30"></span>
+
+            <div class="progress_bar col-md-6" data-progress-val="80" data-progress-animation="easeOutQuad" data-progress-delay="300" data-progress-color="#0BACB8">
+                <div class="fill_con">
+                    <div class="fill">
+                        <span class="title">Web Design</span>
+                        <span class="value"><span class="num"></span><span>%</span></span>
+                    </div>
+                </div>
+            </div>
+            <div class="progress_bar col-md-6" data-progress-val="60" data-progress-animation="easeOutQuad" data-progress-delay="600" data-progress-color="#3A94B2">
+                <div class="fill_con">
+                    <div class="fill">
+                        <span class="title">Programming</span>
+                        <span class="value"><span class="num"></span><span>%</span></span>
+                    </div>
+                </div>
+            </div>
+            <div class="progress_bar col-md-6" data-progress-val="70" data-progress-animation="easeOutQuad" data-progress-delay="900" data-progress-color="">
+                <div class="fill_con">
+                    <div class="fill">
+                        <span class="title">HTML/CSS</span>
+                        <span class="value"><span class="num"></span><span>%</span></span>
+                    </div>
+                </div>
+            </div>
+            <div class="progress_bar col-md-6" data-progress-val="100" data-progress-animation="easeOutQuad" data-progress-delay="1200" data-progress-color="#00C194">
+                <div class="fill_con">
+                    <div class="fill">
+                        <span class="title">Wordpress</span>
+                        <span class="value"><span class="num"></span><span>%</span></span>
+                    </div>
+                </div>
+            </div>
+            <div class="progress_bar col-md-6" data-progress-val="40" data-progress-animation="easeOutQuad" data-progress-delay="1500" data-progress-color="#E74C3C">
+                <div class="fill_con">
+                    <div class="fill">
+                        <span class="title">Joomla</span>
+                        <span class="value"><span class="num"></span><span>%</span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<span class="spacer30"></span>
+<!-- End Section -->
+
 <section id="runningNumbers" class="container">
     <div class="row">
         <div class="conteiner col-md-6 scroll-block">
            <div class="col-md-6 red">
-            <span class='numscroller' data-min='1' data-max='86' data-delay='5' data-increment='1'>86%</span>
+               <span class="title">Web Design</span>
+               <span class='numscroller' data-min='1' data-max='80' data-delay='5' data-increment='1'>80</span><span>%</span>
            </div>
            <div class="col-md-6 green">
-             <span class='numscroller' data-min='1' data-max='100' data-delay='5' data-increment='1'>100%</span>
+               <span class="title">Programming</span>
+               <span class='numscroller' data-min='1' data-max='60' data-delay='5' data-increment='1'>60</span><span>%</span>
            </div>
            <div class="col-md-6 blue">
-             <span class='numscroller' data-min='1' data-max='46' data-delay='5' data-increment='1'>46%</span>
+               <span class="title">HTML/CSS</span>
+               <span class='numscroller' data-min='1' data-max='70' data-delay='5' data-increment='1'>70</span><span>%</span>
            </div>
            <div class="col-md-6 yellow">
-             <span class='numscroller' data-min='1' data-max='76' data-delay='5' data-increment='1'>76%</span>
-          </div>
-           <div class="col-md-6 magenda">
-             <span class='numscroller' data-min='1' data-max='80' data-delay='5' data-increment='1'>80%</span>
+               <span class="title">Wordpress</span>
+               <span class='numscroller' data-min='1' data-max='100' data-delay='5' data-increment='1'>100</span><span>%</span>
            </div>
+           <div class="col-md-6 magenda">
+               <span class="title">Joomla</span>
+               <span class='numscroller' data-min='1' data-max='40' data-delay='5' data-increment='1' data-progress-animation="easeOutQuad" data-progress-delay="300" data-progress-color="#0BACB8">40</span><span>%</span>
+           </div>
+            <div class="progress_bar" data-progress-val="80" data-progress-animation="easeOutQuad" data-progress-delay="300" data-progress-color="#0BACB8">
+                <div class="fill_con">
+                    <div class="fill">
+                        <span class="title">Web Design</span>
+                        <span class="value"><span class="num"></span><span>%</span></span>
+                    </div>
+                </div>
+            </div>
         </div>
+
     </div>
 </section>
 <div style="height:2000px;"></div>
