@@ -7798,16 +7798,20 @@ a.img_popup:after {
 /* ----------------------------------------------------------------
 	Google Map
 -----------------------------------------------------------------*/
-.bordered_content:not(.with_text) .google_map {
-	height: 350px;
+.mapouter {
+	text-align:right;
+	height:350px;
+	width:100%px;
 }
-.google_map {
+.gmap_canvas {
+	overflow:hidden;
+	background:none!important;
+	width:100%;
 	display: block;
 	margin: 0 auto;
-	width: 100%;
 }
-.google_map img {
-	max-width: none;
+.bordered_content:not(.with_text) .mapouter {
+	height: 350px;
 }
 .content .bordered_content {
 	margin-bottom: 25px;

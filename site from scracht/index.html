@@ -1692,9 +1692,10 @@
             </div>
         </div>
         <div class="bordered_content">
-            <div class="google_map" data-lat="-12.043333" data-long="-77.028333" data-main="yes" data-text="Your location description 2">
-                <span class="location" data-lat="-12.040397656836609" data-long="-77.03373871559225" data-text="Your sub location description 1"></span>
-                <span class="location" data-lat="-12.050047116528843" data-long="-77.02448169303511" data-text="Your sub location description 2"></span>
+            <div class="mapouter">
+                <div class="gmap_canvas">
+                    <iframe width="100%" height="350" id="gmap_canvas" src="https://maps.google.com/maps?q=-12.040397656836609%20-77.03373871559225&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                </div>
             </div>
         </div>
     </section>
@@ -1897,7 +1898,7 @@
 <script src="js/plugins.js"></script>
 <script src="js/isotope.pkgd.min.js"></script>
 <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3&amp;sensor=true"></script>
-<script src="js/gmaps.js"></script>
+
 <!-- this is where we put our custom functions -->
 <script type="text/javascript" src="js/functions.js"></script>
 </body>
