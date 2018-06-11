@@ -1,0 +1,86 @@
+html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, menu, nav, section, time, mark, audio, video, details, summary {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font-weight: normal;
+	vertical-align: baseline;
+	background: transparent;
+}
+.content, .container {
+	margin: 0 auto;
+	max-width: 1170px;
+	position: relative;
+	width: 100%;
+	-webkit-transform: translateZ(0);
+	padding: 6px 0 6px 0;
+}
+.f_left {
+	float: left;
+}
+.f_right {
+	float: right;
+}
+.top_details > span > a {
+	text-transform: uppercase;
+}
+.top_details > span, .top_details > div {
+	display: inline-block;
+	margin-right: 40px;
+	padding: 12px 0;
+	font-size: 11px;
+}
+.top_details > span, .top_details > div {
+	display: inline-block;
+	margin-right: 40px;
+	padding: 12px 0;
+	font-size: 11px;
+}
+.languages-select {
+	margin-right: 40px;
+	position: relative;
+	z-index: 10;
+}
+@media only screen and (max-width: 1024px)
+	.top_details > span, .top_details > div {
+		margin-right: 25px;
+	}
+
+@media only screen and (max-width: 1170px)
+	.languages-select, .top_details > span, .top_details > div {
+	 margin-right: 35px;
+	}
+.dropbtn {
+		background-color: #4CAF50;
+		color: white;
+		border: none;
+	}
+
+.dropdown {
+		position: relative;
+		display: inline-block;
+	}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f1f1f1;
+	min-width: 100px;
+	box-shadow: 0px 6px 12px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+	}
+
+.dropdown-content a {
+	color: black;
+	text-decoration: none;
+	display: block;
+	}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+.ico-globe4 {
+	srs
+}
