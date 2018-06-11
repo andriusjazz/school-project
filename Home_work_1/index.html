@@ -6,26 +6,33 @@
     <meta name="description" content="Namu darbai">
     <meta name="author" content="Andrius K.">
     <style>
-
-        <html>
-        <style>
-        body {
-            background: white }
-        section {
-            hight: 150px;
-            width: 150px;
+        div {
             outline: 25px solid black;
             border: 25px solid blue;
             background: green;
             color: white;
-            padding: 5em;
+            padding: 30px 30px;
             position: absolute;
             top: 50%;
             left: 50%;
             margin-right: -50%;
-            transform: translate(-50%, -50%) }
-
+            transform: translate(-50%, -50%);
+            width: 200px;
+            height: 200px;
+            display: table;
+        }
+        div span {
+            display: table-cell;
+            text-align: center;
+            vertical-align: middle;
+            color: white
+        }
     </style>
+<body>
     <section>
-        <h1>Hello world!</h1>
+        <div><span>Hello world!</span></div>
     </section>
+</body>
+</html>
+
+

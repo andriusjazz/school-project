@@ -2,6 +2,8 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <title>Form inputs</title>
     <style>
         form {
             /* Just to center the form on the page */
@@ -25,85 +27,80 @@
             width: 200px;
             display: inline-block;
         }
-
-
-
     </style>
 </head>
 <body>
-
-<div class="container">
-    <form action="/action_page.php">
-        <div>
-            <label for="title">Title</label>
-            <select id="title">
-                <option value="mr">Mr.</option>
-                <option value="ms">Ms.</option>
-                <option value="mss">Mss.</option>
-                <option value="jr">Jr.</option>
-            </select>
-        </div>
-        <div>
-            <label for="name">Name</label>
-            <input type="text" id="name" name="user_name">
-        </div>
-        <div>
-            <label for="phone">Phone number</label>
-            <input type="number" id="phone" name="user_phone">
-        </div>
-        <div>
-            <label for="mail">E-mail adress</label>
-            <input type="email" id="mail" name="user_mail">
-        </div>
-        <div>
-            <label for="website">Your Website</label>
-            <input type="text" id="website" name="user_website">
-        </div>
-        <div>
-            <label for="items">Number of items to order</label>
-            <select id="items">
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5</option>
-                <option value="6">6</option>
-                <option value="7">7</option>
-                <option value="8">8</option>
-                <option value="9">9</option>
-                <option value="10">10</option>
-            </select>
-            <label>(1-10)</label>
-        </div>
-        <div>
-            <label for="range">Lenght</label>
-            <input id="range" type="range" min="1" max="10" value="2">
-            <label>1m (in 10cm increments)</label>
-        </div>
-        <div>
-            <label for="date">Delivery date</label>
-            <input id="date" type="date" name="bday" min="2000-12-16">
-            <label>(minimum 16 december 2010)</label>
-        </div>
-        <div>
-            <label for="time">Time of delivery</label>
-            <input id="time" type="time" name="usr_time" step="1800">
-            <label>(in 30 min increments)</label>
-        </div>
-        <div>
-            <label for="color">Color of the item</label>
-            <input id="color" type="color" name="favcolor" value="#ff0000">
-            <label>(Default red)</label>
-        </div>
-        <div>
-            <input type="submit">
-        </div><br>
-        <div>
-            <input type="text" placeholder="Search.." name="search">
-            <button type="search">Go</button>
-        </div>
-    </form>
-</div>
-
+    <div class="container">
+        <form action="/action_page.php">
+            <div>
+                <label for="title">Title</label>
+                <select id="title">
+                    <option value="mr">Mr.</option>
+                    <option value="ms">Ms.</option>
+                    <option value="mss">Mss.</option>
+                    <option value="jr">Jr.</option>
+                </select>
+            </div>
+            <div>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="user_name">
+            </div>
+            <div>
+                <label for="phone">Phone number</label>
+                <input type="number" id="phone" name="user_phone">
+            </div>
+            <div>
+                <label for="mail">E-mail adress</label>
+                <input type="email" id="mail" name="user_mail">
+            </div>
+            <div>
+                <label for="website">Your Website</label>
+                <input type="text" id="website" name="user_website">
+            </div>
+            <div>
+                <label for="items">Number of items to order</label>
+                <select id="items">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
+                <label>(1-10)</label>
+            </div>
+            <div>
+                <label for="range">Lenght</label>
+                <input id="range" type="range" min="1" max="10" value="2">
+                <label>1m (in 10cm increments)</label>
+            </div>
+            <div>
+                <label for="date">Delivery date</label>
+                <input id="date" type="date" name="bday" min="2000-12-16">
+                <label>(minimum 16 december 2010)</label>
+            </div>
+            <div>
+                <label for="time">Time of delivery</label>
+                <input id="time" type="time" name="usr_time" step="1800">
+                <label>(in 30 min increments)</label>
+            </div>
+            <div>
+                <label for="color">Color of the item</label>
+                <input id="color" type="color" name="favcolor" value="#ff0000">
+                <label>(Default red)</label>
+            </div>
+            <div>
+                <input type="submit">
+            </div><br>
+            <div>
+                <input type="search" placeholder="Search.." name="search">
+                <button type="submit">Go</button>
+            </div>
+        </form>
+    </div>
 </body>
 </html>
